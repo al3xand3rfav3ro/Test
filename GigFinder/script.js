@@ -5,7 +5,7 @@ const concerts = [
     city: "Padova",
     price: 60,
     date: "26 July 2026",
-    spotify: "https://open.spotify.com/artist/7LNEbd8qrjt24KZR5DjgQk"
+    spotify: "https://open.spotify.com/artist/7LNEbd8qrjt24KZR5DjgQk",
     ticket: "https://metalitalia.com/evento/padova-metal-fest-disharmonic-orchestra-parco-degli-alpini-padova/"
 },
 
@@ -14,7 +14,7 @@ const concerts = [
     city: "Milan",
     price: 30,
     date: "29 July 2026",
-    spotify: "https://open.spotify.com/artist/3nhxXtHwC2TookQyqQlFK1"
+    spotify: "https://open.spotify.com/artist/3nhxXtHwC2TookQyqQlFK1",
     ticket: "https://metalitalia.com/evento/biohazard-legend-club-milano/"
 },
 
@@ -23,7 +23,7 @@ const concerts = [
     city: "Bologna",
     price: 80,
     date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt"
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
@@ -32,7 +32,7 @@ const concerts = [
     city: "San Giovanni Lupatoto",
     price: 45,
     date: "12 September 2026",
-    spotify: "https://open.spotify.com/artist/6FfZaHz07OsknWNdtdan5R"
+    spotify: "https://open.spotify.com/artist/6FfZaHz07OsknWNdtdan5R",
     ticket: "https://www.facebook.com/events/1638280057532369/"
 }
 
@@ -97,7 +97,6 @@ function displayConcerts(list) {
 
 }
 
-displayConcerts(concerts);
 
 function addBookmark(concert) {
 
@@ -186,5 +185,8 @@ document
     .addEventListener("change", filterConcerts);
 
 const search = document.getElementById("search");
+
+
 search.addEventListener("input", filterConcerts);
 
+displayConcerts(concerts);
