@@ -83,3 +83,93 @@ function displayConcerts(list) {
 }
 
 displayConcerts(concerts);
+
+function addBookmark(concert) {
+
+    if (!bookmarks.includes(concert)) {
+        bookmarks.push(concert);
+    }
+
+    displayBookmarks();
+
+}
+function displayBookmarks() {
+
+    const bookmarkSection =
+        document.getElementById("bookmarks");
+
+    bookmarkSection.innerHTML = "";
+
+    bookmarks.forEach(concert => {
+
+        const card = document.createElement("div");
+
+        card.className = "card";
+
+        card.innerHTML = `
+            <h3>${concert.artist}</h3>
+            <p>${concert.city}</p>
+            <p>${concert.date}</p>
+        `;
+
+        bookmarkSection.appendChild(card);
+
+    });
+
+}
+
+function filterConcerts() {
+
+    let filtered = concerts;
+
+    const searchText =
+        document.getElementById("search")
+        .value
+        .toLowerCase();
+
+    filtered = filtered.filter(concert =>
+
+        concert.artist
+        .toLowerCase()
+        .includes(searchText)
+
+    );
+  // Location filter
+    const selectedCity = document
+        .getElementById("location")
+        .value;
+
+    if (selectedCity !== "All") {
+
+        filtered = filtered.filter(concert =>
+            concert.city === selectedCity
+        );
+
+    }
+
+    // Budget filter
+    const budget = document
+        .getElementById("budget")
+        .value;
+
+    if (budget !== "All") {
+
+        filtered = filtered.filter(concert =>
+            concert.price <= Number(budget)
+        );
+
+    }
+    displayConcerts(filtered);
+
+}
+document
+.getElementById("location")
+.addEventListener("change", filterConcerts);
+
+document
+    .getElementById("budget")
+    .addEventListener("change", filterConcerts);
+
+const search = document.getElementById("search");
+search.addEventListener("input", filterConcerts);
+
