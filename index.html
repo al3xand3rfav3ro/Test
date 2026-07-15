@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GigFinder</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎵 GigFinder</h1>
+        <p>Find and organise concerts with ease.</p>
+    </header>
+
+    <section class="filters">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search artist...">
+
+        <select id="location">
+            <option value="All">All Locations</option>
+            <option>Milan</option>
+            <option>London</option>
+            <option>Berlin</option>
+            <option>Paris</option>
+        </select>
+
+        <select id="budget">
+            <option value="All">Any Budget</option>
+            <option value="30">Under €30</option>
+            <option value="50">Under €50</option>
+            <option value="100">Under €100</option>
+        </select>
+
+    </section>
+
+    <main>
+
+        <section>
+
+            <h2>Upcoming Concerts</h2>
+
+            <div id="concert-list">
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <h2>Bookmarked Concerts</h2>
+
+            <div id="bookmarks">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
