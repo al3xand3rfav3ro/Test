@@ -60,6 +60,9 @@ function displayConcerts(list) {
             <button class="bookmark-btn">Bookmark</button>
 
             <button class="spotify-btn">Spotify</button>
+
+            <button class="ticket-btn">Buy Tickets</button>
+
         `;
 
         const bookmarkButton =
