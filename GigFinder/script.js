@@ -1,35 +1,39 @@
 const concerts = [
 
 {
-    artist: "Metallica",
-    city: "Milan",
+    artist: "Disharmonic Orchestra",
+    city: "Padova",
     price: 60,
-    date: "12 Aug 2026",
-    spotify: "https://open.spotify.com/search/Metallica"
+    date: "26 July 2026",
+    spotify: "https://open.spotify.com/artist/7LNEbd8qrjt24KZR5DjgQk"
+    ticket: "https://metalitalia.com/evento/padova-metal-fest-disharmonic-orchestra-parco-degli-alpini-padova/"
 },
 
 {
-    artist: "Architects",
-    city: "Berlin",
-    price: 35,
-    date: "22 Sep 2026",
-    spotify: "https://open.spotify.com/search/Architects"
+    artist: "Biohazard",
+    city: "Milan",
+    price: 30,
+    date: "29 July 2026",
+    spotify: "https://open.spotify.com/artist/3nhxXtHwC2TookQyqQlFK1"
+    ticket: "https://metalitalia.com/evento/biohazard-legend-club-milano/"
 },
 
 {
-    artist: "Bring Me The Horizon",
-    city: "London",
+    artist: "Napalm Death",
+    city: "Bologna",
     price: 80,
-    date: "3 Oct 2026",
-    spotify: "https://open.spotify.com/search/Bring+Me+The+Horizon"
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt"
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
 {
-    artist: "Sleep Token",
-    city: "Paris",
+    artist: "Hellripper",
+    city: "San Giovanni Lupatoto",
     price: 45,
-    date: "15 Nov 2026",
-    spotify: "https://open.spotify.com/search/Sleep+Token"
+    date: "12 September 2026",
+    spotify: "https://open.spotify.com/artist/6FfZaHz07OsknWNdtdan5R"
+    ticket: "https://www.facebook.com/events/1638280057532369/"
 }
 
 ];
