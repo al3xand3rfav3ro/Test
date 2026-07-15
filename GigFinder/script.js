@@ -81,6 +81,14 @@ function displayConcerts(list) {
 
         concertList.appendChild(card);
 
+        const ticketButton =
+            card.querySelector(".ticket-btn");
+        
+        ticketButton.addEventListener("click", function () {
+            window.open(concert.ticket, "_blank");
+
+});
+
     });
 
 }
