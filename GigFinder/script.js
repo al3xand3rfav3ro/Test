@@ -19,15 +19,6 @@ const concerts = [
 },
 
 {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-
-{
     artist: "Hellripper",
     city: "San Giovanni Lupatoto",
     price: 45,
@@ -55,123 +46,93 @@ const concerts = [
 },
 
     {
-    artist: "Napalm Death",
+    artist: "Alcest",
+    city: "Firenze",
+    price: 50,
+    date: "24 July 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Obscura",
     city: "Bologna",
     price: 80,
+    date: "24 July 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Northlane",
+    city: "Milano",
+    price: 30,
     date: "2 December 2026",
     spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
     {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
+    artist: "Agnostic Front",
+    city: "Roma",
+    price: 25,
+    date: "29 July 2026",
     spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
     {
-    artist: "Napalm Death",
-    city: "Bologna",
+    artist: "Bulldozer",
+    city: "Genova",
     price: 80,
-    date: "2 December 2026",
+    date: "31 July 2026",
     spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
     {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
+    artist: "Primus",
+    city: "Milano",
+    price: 50,
+    date: "31 July 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Signs of the Swarm",
+    city: "San Giovanni Lupatoto",
+    price: 30,
+    date: "2 August 2026",
     spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
     {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
+    artist: "Riot",
+    city: "San Giovanni Lupatoto",
+    price: 40,
+    date: "7 August 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+      {
+    artist: "Fu Manchu",
+    city: "Roma",
+    price: 50,
+    date: "8 August 2026",
     spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
 
     {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
+    artist: "Revocation",
+    city: "San Giovanni Lupatoto",
+    price: 25,
+    date: "17 August 2026",
     spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
     ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
 },
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-    {
-    artist: "Napalm Death",
-    city: "Bologna",
-    price: 80,
-    date: "2 December 2026",
-    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
-    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
-},
-
 ];
 
 const bookmarks = [];
