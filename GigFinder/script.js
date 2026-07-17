@@ -11,7 +11,7 @@ const concerts = [
 
 {
     artist: "Biohazard",
-    city: "Milan",
+    city: "Milano",
     price: 30,
     date: "29 July 2026",
     spotify: "https://open.spotify.com/artist/3nhxXtHwC2TookQyqQlFK1",
@@ -34,7 +34,143 @@ const concerts = [
     date: "12 September 2026",
     spotify: "https://open.spotify.com/artist/6FfZaHz07OsknWNdtdan5R",
     ticket: "https://www.facebook.com/events/1638280057532369/"
-}
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "In Flames",
+    city: "Bologna",
+    price: 50,
+    date: "23 July 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
+    {
+    artist: "Napalm Death",
+    city: "Bologna",
+    price: 80,
+    date: "2 December 2026",
+    spotify: "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+    ticket: "https://metalitalia.com/evento/napalm-death-master-brat-goatburner-locomotiv-club-bologna-bo/"
+},
 
 ];
 
